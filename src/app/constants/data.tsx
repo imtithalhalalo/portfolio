@@ -45,7 +45,7 @@ export const data: any = [
       id: "certifications",
       content: (
         <div className="flex justify-start space-x-4 overflow-hidden">
-          {["SE Factory Foundation of computer science", "SE Factory Full Stack web development", "Udemy Practical Typescript and MERN stack"].map((certification, index) => (
+          {["SE Factory Foundation of computer science", "SE Factory Full Stack web development"].map((certification, index) => (
             <div key={index} className="bg-[#ffffff87] rounded-md p-2">
               {certification}
             </div>
