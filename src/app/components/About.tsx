@@ -2,51 +2,7 @@
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
-
-const data: any = [
-    {
-      title: "Skills",
-      id: "skills",
-      content: (
-        <div className="flex justify-start flex-wrap overflow-hidden">
-          {["Node.js", "TypeScript", "NextJS", "JavaScript", "ReactJS", "Laravel"].map((skill, index) => (
-            <div key={index} className="bg-[#ffffff87] rounded-md p-2 mt-5 mr-3">
-              {skill}
-            </div>
-          ))}
-        </div>
-      ),
-    },
-    {
-      title: "Education",
-      id: "education",
-      content: (
-        <div className="flex justify-start space-x-4 overflow-hidden">
-          {["Lebanese International University", "Bachelor Degree in computer science"].map((education, index) => (
-            <div key={index} className="bg-[#ffffff87] rounded-md p-2">
-              {education}
-            </div>
-          ))}
-        </div>
-      ),
-    },
-    {
-      title: "Certifications",
-      id: "certifications",
-      content: (
-        <div className="flex justify-start space-x-4 overflow-hidden">
-          {["SE Factory Foundation of computer science", "SE Factory Full Stack web development", "Udemy Practical Typescript and MERN stack"].map((certification, index) => (
-            <div key={index} className="bg-[#ffffff87] rounded-md p-2">
-              {certification}
-            </div>
-          ))}
-        </div>
-      ),
-    },
-];
-  
-  
-  
+import { data } from "../constants/data";
 
 const About = () => {
   const [tab, setTab] = useState("skills");
