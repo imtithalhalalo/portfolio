@@ -4,6 +4,7 @@ import GithubIcon from "../../../public/github.svg";
 import LinkedinIcon from "../../../public/linkedin.svg";
 import Link from "next/link";
 import Image from "next/image";
+import CopyToClipboardButton from "./CopyToClipboardButton";
 
 const Contact = () => {
   return (
@@ -39,14 +40,12 @@ const Contact = () => {
               >
                 My Email
               </label>
-              <input
-                name="email"
-                type="email"
-                id="email"
-                disabled
-                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="halaloimtithal@gmail.com"
-              />
+              <div
+                  className="flex flex-row justify-between bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+                >
+                  <div>halaloimtithal@gmail.com</div>
+                  <div><CopyToClipboardButton text="halaloimtithal@gmail.com" /></div>
+                </div>
             </div>
 
             <div className="mb-6">
@@ -56,16 +55,13 @@ const Contact = () => {
               >
                 My Phone Number
               </label>
-              <input
-                name="email"
-                type="email"
-                id="email"
-                disabled
-                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="+961 76 016 451"
-              />
+                <div
+                  className="flex flex-row justify-between bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+                >
+                  <div>+961 76 016 451</div>
+                  <div><CopyToClipboardButton text="+961 76 016 451" /></div>
+                </div>              
             </div>
-
       </div>
     </section>
   );
