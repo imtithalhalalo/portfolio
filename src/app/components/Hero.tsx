@@ -32,7 +32,7 @@ const Hero = () => {
                     Full Stack Developer based in Lebanon
                 </p>
                 <a 
-                    href={'https://doc-0g-c4-prod-03-apps-viewer.googleusercontent.com/viewer2/prod-03/pdf/g20i9r917066m4h38mfjnlj6egjcnu2d/ebh1t0u4h07vvpg7bqu4agsnv8f5bkd7/1713731250000/3/111208694794086536048/APznzabEz5lf-tAAbz0ULxWc4doBXrGqt6QpY4X94TUYLirUiSr8nfUe3_SgnJ4mkfVJ9_exrd-8oJF5Fd4gKUxQ635wbRJqiY-3EWTtkQd7ycQIsJNKwaD7dFJ3qBdzbHEPxmLXi1PYPpSGS3vBgs-RKxlsBq8-bA8V71e70Prb2n0TbQo2nHrzSDwSh35vVB8Pjz3D81oLGToGb-2AaX-HFC8yJ12jib5IJUtD3ZdYaKLyIP7CgFMR-_y_VdgXeTjQ6G8FN7AmqIlMNSvlvuoLEpn5yOOD8qoRQhNoLWzIsOPqAd9Zz7gLQHOoi-ffsPMJ8o-7uGSNhOgku33JmJoxDxVCvFt4ly_MgWwYAA88c7ns9NUrXT6YjEAIekMu4P4cYXoE9-GkYZP2Wi7Mp0NMHMsDDUw0J87-sGouDXHT-O9QcuIHEPg=?authuser=0&nonce=jq5odrpa88b5i&user=111208694794086536048&hash=jlvoq38i673qttlv61jos18u5ngbu1ou'}
+                    href={'https://drive.google.com/file/d/1YGcZQuUoe4IgWMGR2cPz-1BZqCGrm1rD/view?usp=sharing'}
                     target="_blank"
                     className='px-4 py-2 w-full sm:w-fit rounded-full bg-[#03b9f4] hover:bg-[#281740] text-white border'>
                         Download CV

@@ -57,25 +57,24 @@ const VideosModal = ({ title, description, videoUrl, open, setOpen }: IVideosMod
                     {description}
                 </Typography>
                 <div className="mt-6">
-                <div className='embed-responsive embed-responsive-16by9' style={{ maxWidth: '100%' }}>
-                    <iframe
-                        width='540'
-                        height='315'
-                        className='embed-responsive-item'
-                        src={videoUrl}
-                        allowFullScreen
-                        style={{
-                            width: '100%',
-                            height: '100%',
-                            '@media (max-width: 768px)': { 
-                                width: '100vw', 
-                                height: '56.25vw', 
-                            } ,
-                        } as any}
-                    ></iframe>
+                    <div className='embed-responsive embed-responsive-16by9' style={{ maxWidth: '100%' }}>
+                        <iframe
+                            width='540'
+                            height='315'
+                            className='embed-responsive-item'
+                            src={videoUrl}
+                            allowFullScreen
+                            style={{
+                                width: '100%',
+                                height: '100%',
+                                '@media (max-width: 768px)': { 
+                                    width: '100vw', 
+                                    height: '56.25vw', 
+                                } ,
+                            } as any}
+                        ></iframe>
+                    </div>
                 </div>
-            </div>
-
             </Box>
         </Modal>
   );
