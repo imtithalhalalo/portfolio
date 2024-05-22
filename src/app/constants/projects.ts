@@ -26,6 +26,14 @@ export const projects = [
         tag: ["All", "Web"],
     },
     {
+        imageUrl: '/images/projects/expense-tracker.png',
+        title: 'Vue Expense Tracker',
+        description: 'Vue JS application where you can add your income and expenses and delete them and save to loacalStorage.',
+        github: 'https://github.com/imtithalhalalo/vue-expense-tracker',
+        video: 'https://www.youtube.com/embed/hkgQRuVmaA8?si=xvh78mY10GDWg6Yj',
+        tag: ["All", "Web"],
+    },
+    {
         imageUrl: '/images/projects/alphastore.png',
         title: 'Alpha Store',
         description: `A store application built with TypeScript, utilizing Redux Toolkit for state management. 
